@@ -3,9 +3,10 @@ package ru.netology.javaDz10;
 public class Radio {
     private int numberCurrentStation;
     private int volume;
+    private int totalStations;
     final int maxNumberStation = 9;
     final int minNumberStation = 0;
-    final int maxVolume = 10;
+    final int maxVolume = 100;
     final int minVolume = 0;
 
     public int getNumberCurrentStation() {
@@ -16,13 +17,17 @@ public class Radio {
         return volume;
     }
 
-    public int getMaxNumberStation() {
-        return maxNumberStation;
-    }
-
-    public int getMinNumberStation() {
-        return minNumberStation;
-    }
+//    public int getMaxNumberStation() {
+//        return maxNumberStation;
+//    }
+//
+//    public int getStationCount() {
+//        return totalStations;
+//    }
+//
+//    public int getMinNumberStation() {
+//        return minNumberStation;
+//    }
 
     public int getMaxVolume() {
         return maxVolume;
@@ -33,15 +38,30 @@ public class Radio {
     }
 
 
-    public void setNumberCurrentStation(int newNumberCurrentStation) {
-        if (newNumberCurrentStation < minNumberStation) {
-            return;
-        }
-        if (newNumberCurrentStation > maxNumberStation) {
-            return;
-        }
-        numberCurrentStation = newNumberCurrentStation;
+    public Radio() {
+        totalStations = 9;
     }
+
+    public Radio(int stationCount) {
+        if(stationCount < minNumberStation){
+            return;
+        }
+        if(stationCount > maxNumberStation){
+            return;
+        }
+        this.numberCurrentStation = stationCount;
+    }
+
+
+//    public void setNumberCurrentStation(int newNumberCurrentStation) {
+//        if (newNumberCurrentStation < minNumberStation) {
+//            return;
+//        }
+//        if (newNumberCurrentStation > maxNumberStation) {
+//            return;
+//        }
+//        numberCurrentStation = newNumberCurrentStation;
+//    }
 
     public void nextStation() {
 

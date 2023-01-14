@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be8279b8-8783-4164-a3fb-2242f8da9c5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/javaDz10/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/javaDz10/RadioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/javaDz10/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/javaDz10/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/javaDz10/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/javaDz10/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.setVolumeBeforeMin">
+  <component name="RunManager" selected="JUnit.RadioTest.setVolumeAfterMax">
     <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaDz10" />
       <extension name="coverage">
@@ -77,7 +74,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.setVolumeBeforeMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.setVolumeAfterMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaDz10" />
       <extension name="coverage">
         <pattern>
@@ -87,13 +84,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.javaDz10" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.javaDz10.RadioTest" />
-      <option name="METHOD_NAME" value="setVolumeBeforeMin" />
+      <option name="METHOD_NAME" value="setVolumeAfterMax" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.setVolumeMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.setVolumeFromMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaDz10" />
       <extension name="coverage">
         <pattern>
@@ -103,13 +100,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.javaDz10" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.javaDz10.RadioTest" />
-      <option name="METHOD_NAME" value="setVolumeMax" />
+      <option name="METHOD_NAME" value="setVolumeFromMax" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.setVolumeMax10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.setVolumeOnOneDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaDz10" />
       <extension name="coverage">
         <pattern>
@@ -119,13 +116,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.javaDz10" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.javaDz10.RadioTest" />
-      <option name="METHOD_NAME" value="setVolumeMax10" />
+      <option name="METHOD_NAME" value="setVolumeOnOneDown" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.setVolumeToMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.setVolumeToMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaDz10" />
       <extension name="coverage">
         <pattern>
@@ -135,7 +132,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.javaDz10" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.javaDz10.RadioTest" />
-      <option name="METHOD_NAME" value="setVolumeToMin" />
+      <option name="METHOD_NAME" value="setVolumeToMax" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest.setVolumeBeforeMin" />
-        <item itemvalue="JUnit.RadioTest.setVolumeMax10" />
-        <item itemvalue="JUnit.RadioTest.setVolumeMax" />
-        <item itemvalue="JUnit.RadioTest.setVolumeToMin" />
+        <item itemvalue="JUnit.RadioTest.setVolumeAfterMax" />
         <item itemvalue="JUnit.RadioTest" />
+        <item itemvalue="JUnit.RadioTest.setVolumeFromMax" />
+        <item itemvalue="JUnit.RadioTest.setVolumeOnOneDown" />
+        <item itemvalue="JUnit.RadioTest.setVolumeToMax" />
       </list>
     </recent_temporary>
   </component>
